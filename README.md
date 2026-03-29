@@ -73,7 +73,7 @@ Choose from 4 different sample documents:
 - **UI Components:** Shadcn UI + Radix UI
 - **Icons:** Lucide React
 - **Notifications:** Sonner (Toast)
-- 
+  
 ### Masking Styles
 - **Blocks:** `█████`
 - **Asterisks:** `*****`
