@@ -1,6 +1,6 @@
 # 🛡️ RedactAI - AI-Powered Document Redaction
 
-A professional, free demo application for automatically detecting and redacting sensitive information (PII) from documents using AI.
+RedactAI is a free, client-side web application that automatically detects and redacts sensitive personally identifiable information (PII) from documents. Built with Next.js and TypeScript, it uses advanced pattern recognition to identify 50+ types of PII including names, addresses, financial data, medical records, and more. All processing happens in the browser with zero data retention, ensuring maximum privacy and security.
 
 ## ✨ Features
 
@@ -73,6 +73,12 @@ Choose from 4 different sample documents:
 - **UI Components:** Shadcn UI + Radix UI
 - **Icons:** Lucide React
 - **Notifications:** Sonner (Toast)
+- 
+### Masking Styles
+- **Blocks:** `█████`
+- **Asterisks:** `*****`
+- **Smart:** Preserves format (e.g., `j***@email.com`)
+- **Custom:** `[TYPE]`
 
 ## 📁 Project Structure
 
@@ -126,17 +132,4 @@ ai-redaction-project/
 - ✅ **No Registration** - Start immediately
 - ✅ **Free Forever** - No limits
 
-## 📝 Configuration
 
-### Settings Dialog
-- AI sensitivity levels
-- Confidence threshold
-- Masking styles (blocks/asterisks/smart/custom)
-- Custom regex patterns
-- Batch mode toggle
-
-### Masking Styles
-- **Blocks:** `█████`
-- **Asterisks:** `*****`
-- **Smart:** Preserves format (e.g., `j***@email.com`)
-- **Custom:** `[TYPE]`
